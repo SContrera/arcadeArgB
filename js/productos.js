@@ -34,10 +34,15 @@ this.error=true
 })
 },
 eliminar(producto) {
-const url = this.url+'/' + producto;
-var options = {
-method: 'DELETE',
-}
+      var mensaje = window.confirm('Deseas eliminar el producto'+' numero '+producto+'?');
+      if (mensaje == true) {
+        this.eliminar=true}
+        else{
+          mensaje = window.location.href = "./ productos.html";
+        }
+      const options = {
+        method: 'DELETE',
+      };
 fetch(url, options)
 .then(res => res.text()) // or res.json()
 .then(res => {

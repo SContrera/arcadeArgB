@@ -58,7 +58,7 @@ crossorigin="anonymous">
 <img width="60" :src="producto.imagen" :alt="producto.nombre">
 </td>
 <td>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-primary" :href="'producto_update.html?id='+ producto.id" >Editar</a>&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="fa fa-edit btn btn-primary"style="font-size:25px" title="Editar" :href="'producto_update.html?id='+ producto.id" ></a>&nbsp;&nbsp;
 <button type="button" class="btn btn-danger" v-on:click="eliminar(producto.id)" >Eliminar</button>
 </td>
 </tr>

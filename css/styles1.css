@@ -22,3 +22,51 @@ color: #1DA1F2;
 .fa-facebook{
 color:#1877f2;
 }
+table th:nth-child(1) {
+	color: #fff;
+	background-color: #000;
+}
+table {
+  border: 1px solid #000;
+}
+th, td {
+  text-align: center;
+  vertical-align: top;
+  border: 2px solid #000;
+  border-spacing: 2;
+  border-collapse: collapse;
+  padding: 0.3em;
+  caption-side: bottom;
+}
+table th:nth-child(2) {
+	color: #fff;
+	background-color: #000;
+}
+table th:nth-child(3) {
+	color: #fff;
+	background-color: #000;
+}
+table th:nth-child(4) {
+	color: #fff;
+	background-color: #000;
+}
+table th:nth-child(5) {
+	color: #fff;
+	background-color: #000;
+}
+table th:nth-child(6) {
+	color: #fff;
+	background-color: #000;
+}
+table th:nth-child(7) {
+	color: #fff;
+	background-color: #000;
+}
+table th:nth-child(8) {
+	color: #fff;
+	background-color: #000;
+}
+table th:nth-child(9) {
+	color: #fff;
+	background-color: #000;
+}

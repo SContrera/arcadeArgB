@@ -58,7 +58,7 @@
                     </td>
                     <td>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="fa fa-edit btn btn-primary"style="font-size:25px" title="Editar" :href="'producto_update.html?id='+ producto.id" ></a>&nbsp;&nbsp;
-                    <button type="button" class="btn btn-danger" v-on:click="eliminar(producto.id)" >Eliminar</button>
+                    <button type="button" class="fa fa-trash btn btn-danger" style="font-size:25px;" title="Eliminar"  onclick="return confirm(')'" v-on:click="eliminar(producto.id)" ></button>
                   </td>
               </tr>
             </tbody>

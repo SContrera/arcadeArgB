@@ -1,5 +1,6 @@
 document.getElementById("header").innerHTML=` 
 <link rel="stylesheet" href="css/styles1.css">
+<script src="./js/productos.js"></script>
 <nav class="navbar navbar-expand-sm
 navbar-light bg-dark" style="background-color: #e3f2fd;">
 <img src='./imagenes/LOGO.png'>
@@ -34,9 +35,9 @@ data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CRUD</a>
 <a href="#"><i class="fa-brands fa-twitter"></i></a>&nbsp;&nbsp;
 <a href="https://web.whatsapp.com/"><i _ngcontent-tau-c135="" class="fab fa-whatsapp"></i></a>&nbsp;&nbsp;
 <form action="./consulta.html" method="GET" class="d-flex my-2 my-lg-0">
-<input class="form-control me-sm-2" type="text" id="productos" placeholder="Search">
-<button class="btn btn-outline-success my-2 my-sm-0"
-type="submit">Search</button>
+<div>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+</div>
 </form>
 </div>
 </div>

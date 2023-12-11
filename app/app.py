@@ -46,7 +46,7 @@ ma = Marshmallow(app): Se crea un objeto ma de la clase Marshmallow, que se util
 '''
 # Configura la URI de la base de datos con el driver de MySQL, usuario, contraseña y nombre de la base de datos
 # URI de la BD == Driver de la BD://user:password@UrlBD/nombreBD
-# app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:root@localhost/proyecto"
+# app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://http://ArcadeArg:Genesis12345@arcadearg.mysql.pythonanywhere-services.com/ArcadeArg$proyecto"
 app.config["SQLALCHEMY_DATABASE_URI"] = "mysql+pymysql://root:@localhost/proyecto"
 # Configura el seguimiento de modificaciones de SQLAlchemy a False para mejorar el rendimiento
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
